@@ -12,14 +12,149 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>ÉcoMouv' | Accueil</title>
   </head>
   <body>
     <!-- Hero Section -->
-    <header></header>
+    <header class="hero d-flex flex-column align-items-center">
+      <div class="d-flex align-items-end justify-content-center h-50">
+        <div class="d-flex">
+          <h1 class="m-0 display-1">ÉcoMouv'</h1>
+          <img class="align-self-center" src="../favicon.ico" />
+        </div>
+      </div>
+      <div class="h-50 w-100 d-flex justify-content-center align-items-center">
+        <a
+          href="#"
+          class="d-flex eventBtn btn h-50 text-decoration-none text-white align-items-center"
+        >
+          Voir nos évènements →
+        </a>
+      </div>
+    </header>
     <!-- Content -->
-    <main></main>
+    <main>
+      <section class="about-us">
+        <h3 class="highlighted position-relative">
+          <mark class="text-white">Qui sommes-nous ?</mark>
+        </h3>
+        <p class="p-2 bg-white rounded-3">
+          Une petite association qui aime faire de petites actions pour
+          l'environnement, notre équipe soudée tient à être toujours à l'écoute
+          des derniers dangers que notre planète peut et pourra subir.
+        </p>
+      </section>
+
+      <section class="our-team">
+        <h3 class="highlighted position-relative">
+          <mark class="text-white">Notre équipe</mark>
+        </h3>
+        <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Premier membre de l'équipe"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide-to="1"
+              aria-label="Deuxième membre de l'équipe"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide-to="2"
+              aria-label="Troisième membre de l'équipe"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#teamCarousel"
+              data-bs-slide-to="3"
+              aria-label="Quatrième membre de l'équipe"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="first-team-member card">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Jean Dupont, 29 ans</h5>
+                  <p class="card-text">Chargé d'affaires chez EcoMouv'</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Éric Dupont, 32 ans</h5>
+                  <p class="card-text">Paysagiste</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giselle Dupont, 40 ans</h5>
+                  <p class="card-text">Chef de projet</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card">
+                <img
+                  src="https://via.placeholder.com/150"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Lucas Dupont, 22 ans</h5>
+                  <p class="card-text">Agent d'extérieur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer -->
-    <footer></footer>
+    <footer
+      id="footer"
+      class="d-flex flex-column justify-content-around align-items-center"
+    >
+      <a href="#footer">Contactez-nous</a>
+      <a href="#footer">Nos partenaires</a>
+      <a href="#footer">Mentions légales</a>
+      <a href="#footer">Cookies</a>
+      <hr />
+      <p>© ecomouv.fr | 1995 - 2022</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
