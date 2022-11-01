@@ -4,3 +4,45 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+@media screen and (max-width: 576px) {
+  /* Footer Styles */
+  footer {
+    padding-top: 6px;
+    background-color: #0c8346;
+    margin: 0;
+    color: white;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  footer a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+  footer hr {
+    width: 30%;
+    border-width: 1px;
+    opacity: 0.9;
+  }
+  /* -- END OF FOOTER STYLES -- */
+
+  @keyframes popInOut {
+    from {
+      scale: 1;
+    }
+    50% {
+      scale: 0.9;
+    }
+    to {
+      scale: 1;
+    }
+  }
+}

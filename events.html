@@ -14,14 +14,66 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles/events.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>ÉcoMouv' | Évènements</title>
   </head>
   <body>
     <!-- Header / Main Titles -->
-    <header></header>
+    <header class="d-flex flex-column align-items-center">
+      <h1>Tous nos évènements en un clic !</h1>
+      <a href="index.html" class="btn back-to-menu w-75"
+        >&larr; Retour vers l'accueil</a
+      >
+    </header>
     <!-- Articles -->
-    <main></main>
+    <main>
+      <div class="recent-events">
+        <h3><mark>Évènements récents</mark></h3>
+        <div class="event-card-container d-flex row">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <h6 class="card-subtitle text-muted mb-3">Sous-titre</h6>
+              <p class="card-text">Description</p>
+            </div>
+            <div class="card-footer text-muted">Ajouté il y a 2 jours</div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <h6 class="card-subtitle text-muted mb-3">Sous-titre</h6>
+              <p class="card-text">Description</p>
+            </div>
+            <div class="card-footer text-muted">Ajouté il y a 2 jours</div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <h6 class="card-subtitle text-muted mb-3">Sous-titre</h6>
+              <p class="card-text">Description</p>
+            </div>
+            <div class="card-footer text-muted">Ajouté il y a 2 jours</div>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- Footer -->
-    <footer></footer>
+    <footer
+      id="footer"
+      class="d-flex flex-column justify-content-around align-items-center"
+    >
+      <a href="#footer">Contactez-nous</a>
+      <a href="#footer">Nos partenaires</a>
+      <a href="#footer">Mentions légales</a>
+      <a href="#footer">Cookies</a>
+      <hr />
+      <p>© ecomouv.fr | 1995 - 2022</p>
+    </footer>
   </body>
 </html>
