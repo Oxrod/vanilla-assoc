@@ -16,18 +16,6 @@
     animation-duration: 0.2s;
     animation-timing-function: ease-in-out;
   }
-
-  @keyframes popInOut {
-    from {
-      scale: 1;
-    }
-    50% {
-      scale: 0.9;
-    }
-    to {
-      scale: 1;
-    }
-  }
   /* -- END OF HERO SECTION STYLES -- */
 
   /* Main Content Styles */
@@ -83,31 +71,4 @@
   }
 
   /* -- END OF MAIN CONTENT STYLE -- */
-
-  /* Footer Styles */
-  footer {
-    padding-top: 6px;
-    background-color: #0c8346;
-    margin: 0;
-    color: white;
-    font-size: small;
-    font-family: "Inter", sans-serif;
-  }
-
-  footer a {
-    margin: 10px 0;
-    text-decoration: none;
-    color: white;
-  }
-
-  footer a:hover {
-    text-decoration: underline;
-    color: white;
-  }
-
-  footer hr {
-    width: 30%;
-    border-width: 1px;
-    opacity: 0.9;
-  }
 }

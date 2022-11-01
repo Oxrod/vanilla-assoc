@@ -5,6 +5,8 @@
     background-color: #329f5b;
   }
 
+  /* Header Styles */
+
   header {
     display: flex;
     background-color: #0c8346;
@@ -18,6 +20,18 @@
   h3 {
     margin-bottom: 15px;
   }
+
+  .back-to-menu {
+    color: white;
+    background-color: #329f5b;
+    width: auto;
+  }
+
+  .back-to-menu:hover {
+    animation: popInOut 0.1s ease-in-out;
+  }
+
+  /* -- END OF HEADER STYLES -- */
 
   mark {
     color: white;
@@ -39,11 +53,12 @@
     flex-wrap: nowrap;
   }
 
-  .card {
-    margin: 0 5px;
-  }
   .row {
-    margin: 0;
     --bs-gutter-x: 0;
+  }
+
+  .card {
+    margin: 5px;
+    margin-bottom: 10px;
   }
 }
