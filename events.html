@@ -33,32 +33,164 @@
     </header>
     <!-- Articles -->
     <main>
-      <div class="recent-events">
+      <div class="recent-events" id="recent-events">
         <h3><mark>Évènements récents</mark></h3>
         <div class="event-card-container d-flex row">
-          <div class="card">
+          <div class="card col-sm-4">
             <div class="card-body">
-              <h5 class="card-title">Titre</h5>
-              <h6 class="card-subtitle text-muted mb-3">Sous-titre</h6>
-              <p class="card-text">Description</p>
+              <h5 class="card-title">Manifestation pour le climat</h5>
+              <h6 class="card-subtitle text-muted mb-3">
+                Place de la République, Rouen
+              </h6>
+              <p class="card-text">
+                Rassemblement contre les vignettes Crit'Air, leur signification
+                n'apportant rien dans le cadre de la lutte contre la pollution
+                aérienne, c'est une mesure que l'on doit combattre avec ferveur.
+              </p>
+              <p class="date">Date : 5/11/2022</p>
             </div>
-            <div class="card-footer text-muted">Ajouté il y a 2 jours</div>
+            <div class="card-footer text-muted">Ajouté il y a 8 jours</div>
           </div>
-          <div class="card">
+          <div class="card col-sm-4">
             <div class="card-body">
-              <h5 class="card-title">Titre</h5>
-              <h6 class="card-subtitle text-muted mb-3">Sous-titre</h6>
-              <p class="card-text">Description</p>
+              <h5 class="card-title">Conférence de presse du 22 Novembre</h5>
+              <h6 class="card-subtitle text-muted mb-3">
+                Salle Rothondes, Paris 6e
+              </h6>
+              <p class="card-text">
+                Conférence de presse ayant comme sujet principal les dernières
+                réformes concernant la transition du parc automobile vers le
+                tout électrique, ses impacts sur l'environnements et les
+                conséquences à long terme.
+              </p>
+              <p class="date">Date : 22/11/2022</p>
             </div>
-            <div class="card-footer text-muted">Ajouté il y a 2 jours</div>
+            <div class="card-footer text-muted">Ajouté il y a 5 jours</div>
           </div>
-          <div class="card">
+          <div class="card col-sm-4">
+            <div class="card-body">
+              <h5 class="card-title">Présentation du groupe</h5>
+              <h6 class="card-subtitle text-muted mb-3">
+                Centre ÉcoMouv' Val-de-Loire
+              </h6>
+              <p class="card-text">
+                Réunion de présentation de l'association ÉcoMouv', de ses
+                principes et actions dans toute la France. Introduction aux
+                membres de l'équipe et de leur rôle. Les nouveaux membres sont
+                les bienvenus !<br />
+                Disponible en visio via <a href="#">ce lien</a>.
+              </p>
+              <p class="date">Date : 10/11/2022</p>
+            </div>
+            <div class="card-footer text-muted">Ajouté il y a 3 jours</div>
+          </div>
+        </div>
+      </div>
+      <div class="faq mb-3 d-flex flex-column align-items-center">
+        <h3 class="w-100"><mark>F.A.Q</mark></h3>
+        <div class="accordion" id="faq-accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="entete1">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question1"
+                aria-expanded="true"
+                aria-controls="question1"
+              >
+                "Comment s'inscrire à un évènement ?"
+              </button>
+            </h2>
+            <div
+              id="question1"
+              class="accordion-collapse collapse show"
+              aria-labelledby="entete1"
+              data-bs-parent="#faq-accordion"
+            >
+              <div class="accordion-body">
+                <strong>Sur le site de l'évènement !</strong> Ce site ne permet
+                (pour l'instant) que de répertorier les évènements et leur
+                date...
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="entete2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question2"
+                aria-expanded="false"
+                aria-controls="question2"
+              >
+                "Que faire si on a manqué un évènement ?"
+              </button>
+            </h2>
+            <div
+              id="question2"
+              class="accordion-collapse collapse"
+              aria-labelledby="entete2"
+              data-bs-parent="#faq-accordion"
+            >
+              <div class="accordion-body">
+                <strong>Ce qui est passé est passé MAIS</strong> le site hôte de
+                l'évènement peut recueillir des informations complémentaires sur
+                les prochaines dates de cet évènement ou d'un évènement
+                similaire ! <br />
+                De plus, l'évènement peut aussi réapparaître plus haut dans les
+                <a href="#recent-events">Évènements récents</a> d'ici peu.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-events">
+        <h3><mark>Tous les évènements</mark></h3>
+        <div
+          class="all-events-card-container d-flex flex-column align-items-center"
+        >
+          <div class="card all-events-card">
+            <img
+              class="card-img-top"
+              src="	https://via.placeholder.com/150
+            "
+            />
             <div class="card-body">
               <h5 class="card-title">Titre</h5>
-              <h6 class="card-subtitle text-muted mb-3">Sous-titre</h6>
+              <h6 class="card-subtitle text-muted mb-3">Sous-Titre</h6>
               <p class="card-text">Description</p>
             </div>
-            <div class="card-footer text-muted">Ajouté il y a 2 jours</div>
+            <div class="card-footer text-center text-warning">
+              Débute dans 3 jours
+            </div>
+          </div>
+          <div class="card all-events-card">
+            <img
+              class="card-img-top"
+              src="	https://via.placeholder.com/150
+            "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <h6 class="card-subtitle text-muted mb-3">Sous-Titre</h6>
+              <p class="card-text">Description</p>
+            </div>
+            <div class="card-footer text-center text-success">En cours</div>
+          </div>
+          <div class="card all-events-card">
+            <img
+              class="card-img-top"
+              src="	https://via.placeholder.com/150
+            "
+            />
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <h6 class="card-subtitle text-muted mb-3">Sous-Titre</h6>
+              <p class="card-text">Description</p>
+            </div>
+            <div class="card-footer text-center text-danger">Terminé</div>
           </div>
         </div>
       </div>
@@ -75,5 +207,11 @@
       <hr />
       <p>© ecomouv.fr | 1995 - 2022</p>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
