@@ -33,6 +33,7 @@
     </header>
     <!-- Articles -->
     <main>
+      <!-- RECENT EVENT SECTION -->
       <div class="recent-events" id="recent-events">
         <h3><mark>Évènements récents</mark></h3>
         <div class="event-card-container d-flex row">
@@ -86,6 +87,7 @@
           </div>
         </div>
       </div>
+      <!-- FAQ SECTION -->
       <div class="faq mb-3 d-flex flex-column align-items-center">
         <h3 class="w-100"><mark>F.A.Q</mark></h3>
         <div class="accordion" id="faq-accordion">
@@ -125,7 +127,7 @@
                 aria-expanded="false"
                 aria-controls="question2"
               >
-                "Que faire si on a manqué un évènement ?"
+                "Que faire si j'ai manqué un évènement ?"
               </button>
             </h2>
             <div
@@ -144,8 +146,41 @@
               </div>
             </div>
           </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="entete3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question3"
+                aria-expanded="false"
+                aria-controls="question3"
+              >
+                Je suis une association qui organise un évènement avec les mêmes
+                motivations
+              </button>
+            </h2>
+            <div
+              id="question3"
+              class="accordion-collapse collapse"
+              aria-labelledby="entete3"
+              data-bs-parent="#faq-accordion"
+            >
+              <div class="accordion-body">
+                <strong>ÉcoMouv'</strong> est ravi de pouvoir accueillir en son
+                sein des associations partenaires ! C'est ensemble que nous
+                formeront une communauté soudée capable de franchir tous les
+                obstacles et éclairer un maximum de monde sur les dangers du
+                monde moderne. Pour toute information complémentaire ou
+                organisation d'évènements, veuillez vous référer au lien
+                <strong>Nous contacter</strong> dans le
+                <a href="#footer">bas de page</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- ALL EVENTS SECTION -->
       <div class="all-events">
         <h3><mark>Tous les évènements</mark></h3>
         <div
@@ -154,13 +189,18 @@
           <div class="card all-events-card">
             <img
               class="card-img-top"
-              src="	https://via.placeholder.com/150
-            "
+              src="https://pixabay.com/get/g35da1da84e360e49d26cd266d5f6432149ba176e887e1453565dbbed1c6b6c2491f34a8d90d130602bf195612a2da65a8fc6c9c0cf7e3ab58b651f7d4865c54524b5c798b7963b5d9850f9fd4131b0fc_640.jpg"
             />
             <div class="card-body">
-              <h5 class="card-title">Titre</h5>
-              <h6 class="card-subtitle text-muted mb-3">Sous-Titre</h6>
-              <p class="card-text">Description</p>
+              <h5 class="card-title">
+                Semaine de sensibilisation aux dangers du tout électrique
+              </h5>
+              <h6 class="card-subtitle text-muted mb-3">Partout en France</h6>
+              <p class="card-text">
+                En ces temps de pénuries d'électricité il est important de bien
+                visualiser les tenants et les aboutissants de la transition
+                énergétique vers le tout électrique.
+              </p>
             </div>
             <div class="card-footer text-center text-warning">
               Débute dans 3 jours
@@ -169,26 +209,36 @@
           <div class="card all-events-card">
             <img
               class="card-img-top"
-              src="	https://via.placeholder.com/150
-            "
+              src="https://pixabay.com/get/g627300500fedbcb54c7b26ba55d814d229191906951a9b8e442008a779c76451c9f126e3d7e6a61fe13558759e1c1fa0b88b8c0fafadde8eaaea2e966b08d53438975bfda7b818f64556c4b9175efce6_640.jpg"
             />
             <div class="card-body">
-              <h5 class="card-title">Titre</h5>
-              <h6 class="card-subtitle text-muted mb-3">Sous-Titre</h6>
-              <p class="card-text">Description</p>
+              <h5 class="card-title">Mois des webinaires emmissions Carbone</h5>
+              <h6 class="card-subtitle text-muted mb-3">
+                Chartres, Le Havre, Rouen
+              </h6>
+              <p class="card-text">
+                Plusieurs webinaires retransmis se dérouleront dans plusieurs
+                grandes villes ce mois-ci. Ils feront le bilan des emissions
+                carbone comparée à la même période l'année précédente.
+              </p>
             </div>
             <div class="card-footer text-center text-success">En cours</div>
           </div>
           <div class="card all-events-card">
             <img
               class="card-img-top"
-              src="	https://via.placeholder.com/150
-            "
+              src="https://pixabay.com/get/gd625fda442214f2f3482eda6fe2afd8b4ef8259824650cddc5a906ed9c9c41b3c4cfe0578f4ae5be4b5103f8ae18e87454cbc434508c36f6c69516c275e06892f460f9b686eb749bc81428acf3c15692_640.jpg"
             />
             <div class="card-body">
-              <h5 class="card-title">Titre</h5>
-              <h6 class="card-subtitle text-muted mb-3">Sous-Titre</h6>
-              <p class="card-text">Description</p>
+              <h5 class="card-title">Décret du 14 avril 2022</h5>
+              <h6 class="card-subtitle text-muted mb-3">
+                Qu'est-ce qui va changer ?
+              </h6>
+              <p class="card-text">
+                Webinaire court sur les changements apportés pour la
+                compensation carbon et aux labels de neutralité carbone dans la
+                publicité.
+              </p>
             </div>
             <div class="card-footer text-center text-danger">Terminé</div>
           </div>
