@@ -48,6 +48,10 @@
     margin-bottom: 20px;
   }
 
+  .recent-events .card-footer {
+    text-align: end;
+  }
+
   .event-card-container {
     overflow-x: scroll;
     flex-wrap: nowrap;
@@ -57,8 +61,45 @@
     --bs-gutter-x: 0;
   }
 
-  .card {
-    margin: 5px;
+  .row > .card {
     margin-bottom: 10px;
+    margin-left: 5px;
+  }
+
+  .card-text {
+    font-size: smaller;
+    overflow-y: scroll;
+    height: 100px;
+  }
+
+  .event-card-container > div:first-child {
+    margin-left: 0;
+  }
+
+  #faq-accordion {
+    width: 95%;
+    border-color: #329f5b;
+  }
+
+  .accordion {
+    color: #0c8346;
+  }
+
+  .accordion-body {
+    font-size: small;
+    text-align: justify;
+  }
+
+  .all-events-card-container {
+    margin-bottom: 2rem;
+  }
+
+  .all-events-card {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+
+  .all-events-card:last-child {
+    margin-bottom: 0;
   }
 }
