@@ -72,3 +72,77 @@
 
   /* -- END OF MAIN CONTENT STYLE -- */
 }
+
+@media screen and (max-width: 768px) {
+  /* HERO SECTION STYLES */
+  .hero {
+    height: 175px;
+    background-color: #0c8346;
+  }
+  .eventBtn {
+    background-color: #329f5b;
+  }
+  .eventBtn:hover {
+    background-color: #329f5b;
+    animation-name: popInOut;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+  }
+  /* -- END OF HERO SECTION STYLES -- */
+
+  /* Main Content Styles */
+  main {
+    background-color: #329f5b;
+  }
+
+  main section {
+    padding-top: 1.5rem;
+    margin: 1rem;
+    margin-top: 0;
+  }
+
+  .highlighted {
+    transform: rotate(-4deg);
+    top: -10px;
+    left: -5px;
+  }
+  mark {
+    background-color: #088040;
+  }
+  h3 {
+    z-index: 99;
+  }
+  .about-us p {
+    color: #0d5d56;
+    margin-left: 12px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Inter", sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .our-team {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+  }
+
+  #teamCarousel button {
+    background-color: #0d5d56;
+    height: 7px;
+  }
+
+  .card {
+    z-index: 0;
+    height: 400px;
+  }
+
+  .card img {
+    height: 250px;
+  }
+
+  /* -- END OF MAIN CONTENT STYLE -- */
+}
